@@ -1,0 +1,203 @@
+//****************** General ******************//
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px auto;
+    max-width: 1440px;
+    
+  }
+
+#leftContainer {
+    width: 20%;
+    height: 100%;
+    margin-left: 40px;
+  }
+#rightContainer {
+    width: 20%;
+    height: 100%;
+    margin-right: 40px;
+  }
+
+#centerContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.generalFont{
+    font-size: 90%;
+    color: rgb(86, 85, 85);
+    background-color: white;
+}
+
+//****************** Left Container ******************//
+
+#leftContainer {
+display: flex;
+flex-direction: column;
+justify-content: left;
+
+}
+
+#leftContainer button{
+    width: 50px;
+    background-color: white;
+    border-radius: 0%;
+    box-shadow: 2px 2px 5px rgba(180, 180, 180, 0.3);
+}
+
+#leftContainer button :hover{
+    color: #7266ee;
+}
+
+//****************** Right Container ******************//
+
+#rightContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+  
+}
+
+.buttons_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 90%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: translateX(-50%); /* Centra el botón horizontalmente */
+    margin-bottom: 60px; /* Ajusta según el espacio que desees entre el botón y el borde inferior */
+    gap: 10px;
+}
+
+.gear button{
+    position: absolute;
+    right: 0;  
+    top: 100px;
+
+    background-color: #7266ee;
+    color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+.gear button:hover{
+    background-color: #7d73f2;
+    color: white;
+}
+
+.arrow{
+    border-radius: 100%;
+    margin-right: 3px;
+    background-color: #7266ee;
+    color: white;
+}
+
+.arrow:hover{
+    transform: translateY(-2px); /* Eleva el botón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el efecto de elevación */
+}
+
+.buyNow{
+    color: white;
+    background: linear-gradient(50deg, #5de6cd, #24bbcc);
+    padding: 0 15px;
+}
+
+.buyNow:hover{
+    transform: translateY(-2px); /* Eleva el botón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+//****************** Center Container ******************//
+//HEADER
+#centerContainer {
+    position: relative;
+}
+.mainheader{
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+  background: linear-gradient(40deg, #e75fc9, #54d1da);
+  border-radius: 6px 6px 0 0;
+}
+
+.profilePhoto{
+    border-radius: 5px;
+    background-color: white;
+    padding: 3px;
+    width: 100px;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+.profilePhoto img{
+    width: 100%;
+    height: 100%;
+}
+
+.profileInfo{
+    padding: 15px;
+    padding-left: 150px;
+    background-color: white;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 0px 4px 6px rgba(180, 180, 180, 0.3);
+}
+
+.profileInfo h3{
+    margin: 0;
+    font-size: 120%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(50, 50, 50);
+    background-color: white;
+}
+
+.profileInfoGeneral{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.profileInfoGeneral button{
+    background-color: #7266ee;
+    padding: 3px 15px;
+    color: white;
+    margin-left: 3px;
+}
+
+.profileInfoGeneral button:hover{
+    background-color: #7d73f2;
+    color: white;
+}
+
+.profileInfoData{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.profileInfoData p{
+    padding: 8px;
+}
+
+//BODY
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+@import './componentsStyle/mainPage.scss';   
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8fa;
+}
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+i{
+    background-color: inherit;
+}
+
+
+
